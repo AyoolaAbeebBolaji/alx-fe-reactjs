@@ -1,10 +1,9 @@
-// src/components/MainContent.jsx
-export default function MainContent() {
+function MainContent() {
   return (
-    <main style={{ padding: 20 }}>
-      <p style={{ lineHeight: 1.6 }}>
-        Welcome to this demo app. Here we practice inline styling.
-      </p>
+    <main style={{ padding: "10px", backgroundColor: "#f0f0f0" }}>
+      <p>Welcome to the main content section!</p>
     </main>
   );
 }
+
+export default MainContent;
