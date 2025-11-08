@@ -1,5 +1,13 @@
+import React from "react";
 import UserDetails from "./UserDetails";
 
-export default function UserInfo() {
-  return <UserDetails />;
+function UserInfo() {
+  return (
+    <div>
+      <h2>User Info</h2>
+      <UserDetails />
+    </div>
+  );
 }
+
+export default UserInfo;

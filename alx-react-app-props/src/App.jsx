@@ -57,14 +57,13 @@ function App() {
 export default App; */
 
 import React from "react";
-import UserProfile from "./components/UserProfile";
 import UserContext from "./UserContext";
+import UserProfile from "./components/UserProfile";
 
 function App() {
   const userData = {
-    name: "Alice",
-    age: 25,
-    bio: "I love coding!",
+    name: "Jane Doe",
+    email: "jane.doe@example.com",
   };
 
   return (
