@@ -1,7 +1,13 @@
 function MainContent() {
   return (
-    <main style={{ padding: "10px", backgroundColor: "#f0f0f0" }}>
-      <p>Welcome to the main content section!</p>
+    <main
+      style={{
+        backgroundColor: "#f0f0f0",
+        padding: "10px",
+        textAlign: "center",
+      }}
+    >
+      <p>I love to visit New York, Paris, and Tokyo.</p>
     </main>
   );
 }
