@@ -56,15 +56,22 @@ function App() {
 
 export default App; */
 
-import ProfilePage from "./ProfilePage";
+import React from "react";
+import UserProfile from "./components/UserProfile";
 import UserContext from "./UserContext";
 
 function App() {
-  const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
+  const userData = {
+    name: "Alice",
+    age: 25,
+    bio: "I love coding!",
+  };
 
   return (
     <UserContext.Provider value={userData}>
-      <ProfilePage />
+      <div>
+        <UserProfile />
+      </div>
     </UserContext.Provider>
   );
 }
