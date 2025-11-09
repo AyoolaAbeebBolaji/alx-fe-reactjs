@@ -92,7 +92,7 @@ function App() {
 
 export default App; */
 
-import { UserContext } from "./UserContext";
+/* import { UserContext } from "./UserContext";
 import UserProfile from "./UserProfile";
 
 function App() {
@@ -105,6 +105,19 @@ function App() {
     <UserContext.Provider value={userData}>
       <UserProfile />
     </UserContext.Provider>
+  );
+}
+
+export default App; */
+
+import React from "react";
+import UserInfo from "./components/UserInfo";
+
+function App() {
+  return (
+    <div>
+      <UserInfo />
+    </div>
   );
 }
 
