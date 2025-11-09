@@ -1,23 +1,46 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">MyLogo</div>
-      <ul className="navbar-links">
+    <nav
+      style={{
+        backgroundColor: "#1e40af",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "1rem 2rem",
+      }}
+    >
+      <div style={{ color: "white", fontWeight: "bold", fontSize: "1.5rem" }}>
+        MyLogo
+      </div>
+      <ul style={{ listStyle: "none", display: "flex", gap: "1.5rem" }}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" style={{ color: "white", textDecoration: "none" }}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about" style={{ color: "white", textDecoration: "none" }}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/services">Services</Link>
+          <Link
+            to="/services"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            Services
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link
+            to="/contact"
+            style={{ color: "white", textDecoration: "none" }}
+          >
+            Contact
+          </Link>
         </li>
       </ul>
     </nav>
