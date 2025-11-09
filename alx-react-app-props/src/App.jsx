@@ -92,8 +92,8 @@ function App() {
 
 export default App; */
 
-import { UserContext } from "./context/UserContext";
-import UserProfile from "./components/UserProfile";
+import { UserContext } from "./UserContext";
+import UserProfile from "./UserProfile";
 
 function App() {
   const userData = {
