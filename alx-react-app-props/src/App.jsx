@@ -110,9 +110,8 @@ function App() {
 
 export default App; */
 
-import React from "react";
 import ProfilePage from "./ProfilePage";
-import { UserContext } from "./UserContext";
+import UserContext from "./UserContext";
 
 function App() {
   const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
