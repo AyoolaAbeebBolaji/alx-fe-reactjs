@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #1e40af; /* Blue background */
+  background-color: #1e40af;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,5 +26,5 @@
 }
 
 .navbar-links li a:hover {
-  color: #facc15; /* Yellow on hover */
+  color: #facc15;
 }
