@@ -59,12 +59,12 @@ export default function App() {
   );
 } */
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+/* import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -77,6 +77,27 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
+  );
+}
+
+export default App; */
+
+import React from "react";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Home />
+      <About />
+      <Services />
+      <Contact />
+    </>
   );
 }
 
