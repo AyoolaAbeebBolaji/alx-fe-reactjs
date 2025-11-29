@@ -66,7 +66,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+<<<<<<< HEAD
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+=======
+>>>>>>> 6950145a9368520c8af7130811a6a9ed6488d822

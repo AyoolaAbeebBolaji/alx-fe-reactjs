@@ -32,6 +32,7 @@ function App() {
   )
 }
 
+<<<<<<< HEAD
 export default App
 */
 
@@ -51,6 +52,19 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <Search />
+=======
+export default App */
+
+import AddRecipeForm from "./components/AddRecipeForm";
+import RecipeList from "./components/RecipeList";
+
+function App() {
+  return (
+    <div>
+      <h1>Recipe Sharing App</h1>
+      <AddRecipeForm />
+      <RecipeList />
+>>>>>>> 6950145a9368520c8af7130811a6a9ed6488d822
     </div>
   );
 }
