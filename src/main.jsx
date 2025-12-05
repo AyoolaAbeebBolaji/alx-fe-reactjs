@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
@@ -9,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+<<<<<<< HEAD
 =======
 /* import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
@@ -32,3 +36,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   </React.StrictMode>
 );
 >>>>>>> 6950145a9368520c8af7130811a6a9ed6488d822
+=======
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)

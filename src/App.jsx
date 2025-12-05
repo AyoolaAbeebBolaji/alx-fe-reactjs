@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* import { useState } from 'react'
+=======
+import { useState } from 'react'
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -32,6 +36,7 @@ function App() {
   )
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 export default App
 */
@@ -70,3 +75,6 @@ function App() {
 }
 
 export default App;
+=======
+export default App
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)

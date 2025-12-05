@@ -1,9 +1,13 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "name": "github-user-search",
 =======
   "name": "recipe-sharing-app",
 >>>>>>> 6950145a9368520c8af7130811a6a9ed6488d822
+=======
+  "name": "github-user-search",
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,17 +19,24 @@
   },
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)
     "axios": "^1.13.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+<<<<<<< HEAD
     "@tailwindcss/postcss": "^4.1.17",
+=======
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.22",
+<<<<<<< HEAD
 =======
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
@@ -38,10 +49,13 @@
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.1.0",
 >>>>>>> 6950145a9368520c8af7130811a6a9ed6488d822
+=======
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17",
@@ -52,5 +66,13 @@
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.2"
 >>>>>>> 6950145a9368520c8af7130811a6a9ed6488d822
+=======
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+>>>>>>> e0bdf6e (Add github-user-search project for ALX milestones 0-3)
   }
 }
